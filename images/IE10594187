@@ -1,0 +1,245 @@
+{
+    "metadata": [
+        {
+            "label": "manifest URL",
+            "value": "http://services.libis.be/m2/manifest/IE10594187"
+        },
+        {
+            "label": "rightsHolder",
+            "value": "Alamire Foundation (Leuven)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "logo": "http://services.libis.be/m2/images/kul.jpeg",
+    "structures": [
+        {
+            "canvases": [
+                "http://services.libis.be/m2/canvas/canvas-0_IE10594187_FL10594203.json",
+                "http://services.libis.be/m2/canvas/canvas-1_IE10594187_FL10594204.json",
+                "http://services.libis.be/m2/canvas/canvas-2_IE10594187_FL10594205.json",
+                "http://services.libis.be/m2/canvas/canvas-3_IE10594187_FL10594206.json",
+                "http://services.libis.be/m2/canvas/canvas-4_IE10594187_FL10594207.json",
+                "http://services.libis.be/m2/canvas/canvas-5_IE10594187_FL10594208.json"
+            ],
+            "@id": "http://services.libis.be/m2/range/range-0.json",
+            "label": "Table of Contents",
+            "type": "sc:Range"
+        },
+        {
+            "canvases": ["http://services.libis.be/m2/canvas/canvas-0_IE10594187_FL10594203.json"],
+            "within": "http://services.libis.be/m2/range/range-0.json",
+            "@type": "sc:Range",
+            "@id": "http://services.libis.be/m2/range/range-0-0.json",
+            "label": "001_27r"
+        },
+        {
+            "canvases": ["http://services.libis.be/m2/canvas/canvas-1_IE10594187_FL10594204.json"],
+            "within": "http://services.libis.be/m2/range/range-0.json",
+            "@type": "sc:Range",
+            "@id": "http://services.libis.be/m2/range/range-0-1.json",
+            "label": "002_27v"
+        },
+        {
+            "canvases": ["http://services.libis.be/m2/canvas/canvas-2_IE10594187_FL10594205.json"],
+            "within": "http://services.libis.be/m2/range/range-0.json",
+            "@type": "sc:Range",
+            "@id": "http://services.libis.be/m2/range/range-0-2.json",
+            "label": "003_28r"
+        },
+        {
+            "canvases": ["http://services.libis.be/m2/canvas/canvas-3_IE10594187_FL10594206.json"],
+            "within": "http://services.libis.be/m2/range/range-0.json",
+            "@type": "sc:Range",
+            "@id": "http://services.libis.be/m2/range/range-0-3.json",
+            "label": "004_28v"
+        },
+        {
+            "canvases": ["http://services.libis.be/m2/canvas/canvas-4_IE10594187_FL10594207.json"],
+            "within": "http://services.libis.be/m2/range/range-0.json",
+            "@type": "sc:Range",
+            "@id": "http://services.libis.be/m2/range/range-0-4.json",
+            "label": "005_29r"
+        },
+        {
+            "canvases": ["http://services.libis.be/m2/canvas/canvas-5_IE10594187_FL10594208.json"],
+            "within": "http://services.libis.be/m2/range/range-0.json",
+            "@type": "sc:Range",
+            "@id": "http://services.libis.be/m2/range/range-0-5.json",
+            "label": "006_29v"
+        }
+    ],
+    "@id": "http://services.libis.be/m2/manifest/IE10594187",
+    "label": "Brussel - Koninklijke Bibliotheek van België / Bruxelles - Bibliothèque royale de Belgique - ms. 5092-94",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [
+            {
+                "images": [{
+                    "resource": {
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "profile": "http://iiif.io/api/image/2/level1.json",
+                            "@id": "http://services.libis.be/iipsrv/iipsrv.fcgi?iiif=/operational_storage/storage1/2018/08/28/file_2/V1-FL10594203.jp2",
+                            "@context": "http://iiif.io/api/image/2/context.json"
+                        },
+                        "@id": "http://services.libis.be/iipsrv/iipsrv.fcgi?iiif=/operational_storage/storage1/2018/08/28/file_2/V1-FL10594203.jp2/full/full/0/default.jpg",
+                        "label": "001_27r"
+                    },
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "@id": "http://services.libis.be/m2/resources/anno-1.json",
+                    "on": "http://services.libis.be/m2/canvas/canvas-0_IE10594187_FL10594203.json"
+                }],
+                "thumbnail": {
+                    "@type": "dctypes:Image",
+                    "@id": "http://services.libis.be/iipsrv/iipsrv.fcgi?iiif=/operational_storage/storage1/2018/08/28/file_2/V1-FL10594203.jp2/full/,150/0/default.jpg"
+                },
+                "@type": "sc:Canvas",
+                "width": 7540,
+                "@id": "http://services.libis.be/m2/canvas/canvas-0_IE10594187_FL10594203.json",
+                "label": "001_27r",
+                "height": 9147
+            },
+            {
+                "images": [{
+                    "resource": {
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "profile": "http://iiif.io/api/image/2/level1.json",
+                            "@id": "http://services.libis.be/iipsrv/iipsrv.fcgi?iiif=/operational_storage/storage1/2018/08/28/file_2/V1-FL10594204.jp2",
+                            "@context": "http://iiif.io/api/image/2/context.json"
+                        },
+                        "@id": "http://services.libis.be/iipsrv/iipsrv.fcgi?iiif=/operational_storage/storage1/2018/08/28/file_2/V1-FL10594204.jp2/full/full/0/default.jpg",
+                        "label": "002_27v"
+                    },
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "@id": "http://services.libis.be/m2/resources/anno-1.json",
+                    "on": "http://services.libis.be/m2/canvas/canvas-1_IE10594187_FL10594204.json"
+                }],
+                "thumbnail": {
+                    "@type": "dctypes:Image",
+                    "@id": "http://services.libis.be/iipsrv/iipsrv.fcgi?iiif=/operational_storage/storage1/2018/08/28/file_2/V1-FL10594204.jp2/full/,150/0/default.jpg"
+                },
+                "@type": "sc:Canvas",
+                "width": 7571,
+                "@id": "http://services.libis.be/m2/canvas/canvas-1_IE10594187_FL10594204.json",
+                "label": "002_27v",
+                "height": 9089
+            },
+            {
+                "images": [{
+                    "resource": {
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "profile": "http://iiif.io/api/image/2/level1.json",
+                            "@id": "http://services.libis.be/iipsrv/iipsrv.fcgi?iiif=/operational_storage/storage1/2018/08/28/file_2/V1-FL10594205.jp2",
+                            "@context": "http://iiif.io/api/image/2/context.json"
+                        },
+                        "@id": "http://services.libis.be/iipsrv/iipsrv.fcgi?iiif=/operational_storage/storage1/2018/08/28/file_2/V1-FL10594205.jp2/full/full/0/default.jpg",
+                        "label": "003_28r"
+                    },
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "@id": "http://services.libis.be/m2/resources/anno-1.json",
+                    "on": "http://services.libis.be/m2/canvas/canvas-2_IE10594187_FL10594205.json"
+                }],
+                "thumbnail": {
+                    "@type": "dctypes:Image",
+                    "@id": "http://services.libis.be/iipsrv/iipsrv.fcgi?iiif=/operational_storage/storage1/2018/08/28/file_2/V1-FL10594205.jp2/full/,150/0/default.jpg"
+                },
+                "@type": "sc:Canvas",
+                "width": 7678,
+                "@id": "http://services.libis.be/m2/canvas/canvas-2_IE10594187_FL10594205.json",
+                "label": "003_28r",
+                "height": 9146
+            },
+            {
+                "images": [{
+                    "resource": {
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "profile": "http://iiif.io/api/image/2/level1.json",
+                            "@id": "http://services.libis.be/iipsrv/iipsrv.fcgi?iiif=/operational_storage/storage1/2018/08/28/file_2/V1-FL10594206.jp2",
+                            "@context": "http://iiif.io/api/image/2/context.json"
+                        },
+                        "@id": "http://services.libis.be/iipsrv/iipsrv.fcgi?iiif=/operational_storage/storage1/2018/08/28/file_2/V1-FL10594206.jp2/full/full/0/default.jpg",
+                        "label": "004_28v"
+                    },
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "@id": "http://services.libis.be/m2/resources/anno-1.json",
+                    "on": "http://services.libis.be/m2/canvas/canvas-3_IE10594187_FL10594206.json"
+                }],
+                "thumbnail": {
+                    "@type": "dctypes:Image",
+                    "@id": "http://services.libis.be/iipsrv/iipsrv.fcgi?iiif=/operational_storage/storage1/2018/08/28/file_2/V1-FL10594206.jp2/full/,150/0/default.jpg"
+                },
+                "@type": "sc:Canvas",
+                "width": 7571,
+                "@id": "http://services.libis.be/m2/canvas/canvas-3_IE10594187_FL10594206.json",
+                "label": "004_28v",
+                "height": 9089
+            },
+            {
+                "images": [{
+                    "resource": {
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "profile": "http://iiif.io/api/image/2/level1.json",
+                            "@id": "http://services.libis.be/iipsrv/iipsrv.fcgi?iiif=/operational_storage/storage1/2018/08/28/file_2/V1-FL10594207.jp2",
+                            "@context": "http://iiif.io/api/image/2/context.json"
+                        },
+                        "@id": "http://services.libis.be/iipsrv/iipsrv.fcgi?iiif=/operational_storage/storage1/2018/08/28/file_2/V1-FL10594207.jp2/full/full/0/default.jpg",
+                        "label": "005_29r"
+                    },
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "@id": "http://services.libis.be/m2/resources/anno-1.json",
+                    "on": "http://services.libis.be/m2/canvas/canvas-4_IE10594187_FL10594207.json"
+                }],
+                "thumbnail": {
+                    "@type": "dctypes:Image",
+                    "@id": "http://services.libis.be/iipsrv/iipsrv.fcgi?iiif=/operational_storage/storage1/2018/08/28/file_2/V1-FL10594207.jp2/full/,150/0/default.jpg"
+                },
+                "@type": "sc:Canvas",
+                "width": 7540,
+                "@id": "http://services.libis.be/m2/canvas/canvas-4_IE10594187_FL10594207.json",
+                "label": "005_29r",
+                "height": 9147
+            },
+            {
+                "images": [{
+                    "resource": {
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "profile": "http://iiif.io/api/image/2/level1.json",
+                            "@id": "http://services.libis.be/iipsrv/iipsrv.fcgi?iiif=/operational_storage/storage1/2018/08/28/file_2/V1-FL10594208.jp2",
+                            "@context": "http://iiif.io/api/image/2/context.json"
+                        },
+                        "@id": "http://services.libis.be/iipsrv/iipsrv.fcgi?iiif=/operational_storage/storage1/2018/08/28/file_2/V1-FL10594208.jp2/full/full/0/default.jpg",
+                        "label": "006_29v"
+                    },
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "@id": "http://services.libis.be/m2/resources/anno-1.json",
+                    "on": "http://services.libis.be/m2/canvas/canvas-5_IE10594187_FL10594208.json"
+                }],
+                "thumbnail": {
+                    "@type": "dctypes:Image",
+                    "@id": "http://services.libis.be/iipsrv/iipsrv.fcgi?iiif=/operational_storage/storage1/2018/08/28/file_2/V1-FL10594208.jp2/full/,150/0/default.jpg"
+                },
+                "@type": "sc:Canvas",
+                "width": 7341,
+                "@id": "http://services.libis.be/m2/canvas/canvas-5_IE10594187_FL10594208.json",
+                "label": "006_29v",
+                "height": 9089
+            }
+        ],
+        "@type": "sc:Sequence",
+        "@id": "http://services.libis.be/m2data/Pauls/rosetta/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

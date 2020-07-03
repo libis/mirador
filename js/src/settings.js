@@ -211,7 +211,7 @@
       }
     },
     
-    'bookmarkBlobUrl':'http://libis-p-aezel-3.lnx.icts.kuleuven.be/mirador/bookmark/jsonblogFile.php/api/jsonblob',
+    'bookmarkBlobUrl':'https://services4.libis.be/mirador/bookmark/jsonblogFile.php/api/jsonblob',
 
     'manifestsPanel': {
       'name': 'Classic Mirador Manifests Panel',

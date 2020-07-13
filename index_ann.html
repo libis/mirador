@@ -341,12 +341,21 @@
         },
                                            "jsonStorageEndpoint": { "name": "Libis JSON endpoint", "module": "LibisBlobAPI" },
                                            "saveSession": true,
+"annotationEndpoint": {
+        "name": 'Simple Annotation Store Endpoint',
+        "module": 'SimpleASEndpoint',
+        "options": {
+            "url": '/sas/annotation',
+            "storeId": 'comparison',
+            "APIKey": 'user_auth'
+        }
+    },				                                           
          "sidePanelOptions" : {
            "tocTabAvailable": true,
-           "layersTabAvailable": false,
-           "searchTabAvailable": false,
-        "annotations" : false,
-        "annotationTabAvailable": false
+           "layersTabAvailable": true,
+           "searchTabAvailable": true,
+        "annotations" : true,
+        "annotationTabAvailable": true
          }										   
                                       });
                                     } else {
@@ -390,13 +399,21 @@
              }
            }
         },
-			                                           
+"annotationEndpoint": {
+        "name": 'Simple Annotation Store Endpoint',
+        "module": 'SimpleASEndpoint',
+        "options": {
+            "url": '/sas/annotation',
+            "storeId": 'comparison',
+            "APIKey": 'user_auth'
+        }
+    },				                                           
         "sidePanelOptions" : {
            "tocTabAvailable": true,
            "layersTabAvailable": false,
-           "searchTabAvailable": false,
-        "annotations" : false,
-        "annotationTabAvailable": false
+           "searchTabAvailable": true,
+        "annotations" : true,
+        "annotationTabAvailable": true
          }										   
                                       });                                        
                                       

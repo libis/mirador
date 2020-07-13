@@ -17,15 +17,15 @@ $blobPath = $_SERVER['PATH_INFO'];
 switch ($method) {
   case 'GET':
     $id = $_GET['id'];
-    $myfile = fopen("/workarea/www/m2/bookmark".$blobPath."/".$id.".txt", "r");
-    $result = fread($myfile,filesize("/workarea/www/m2/bookmark".$blobPath."/".$id.".txt"));
+    $myfile = fopen("/var/www/html/mirador/bookmark".$blobPath."/".$id.".txt", "r");
+    $result = fread($myfile,filesize("/var/www/html/mirador/bookmark".$blobPath."/".$id.".txt"));
      break;
   case 'PUT':
     break;
   case 'POST':
     $id = uniqid();
     $jsblob = file_get_contents('php://input');
-    $myfile = fopen("/workarea/www/m2/bookmark".$blobPath."/".$id.".txt", "w");
+    $myfile = fopen("/var/www/html/mirador/bookmark".$blobPath."/".$id.".txt", "w");
     fwrite($myfile,$jsblob);
     fclose($myfile);
     $result ='writed';
@@ -49,7 +49,7 @@ if ($method == 'GET') {
 header('Temporary-Header: True', true, 201);
 header_remove('Temporary-Header');
     header("X-Jsonblob:".$id);
-    header("location: http://services.libis.be/m2/bookmark/jsonblogFile.php/".$id);
+    header("location: http://services4.libis.be/mirador/bookmark/jsonblogFile.php/".$id);
 }
 }
 exit(json_encode (file_get_contents('php://input')));
